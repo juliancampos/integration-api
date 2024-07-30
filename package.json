@@ -1,0 +1,26 @@
+{
+  "name": "integration-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "export NODE_TLS_REJECT_UNAUTHORIZED=0 && node ./index.js | pino-pretty"
+  },
+  "keywords": [],
+  "author": "Julian Oliveira Campos",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cache": "^5.1.2",
+    "pino": "^9.3.1",
+    "pino-pretty": "^11.2.1",
+    "winston": "^3.13.1"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.8"
+  }
+}
